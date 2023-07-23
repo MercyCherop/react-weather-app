@@ -39,17 +39,25 @@ export default function WeatherSearch() {
   if (loaded) {
     return (
       <div className="App">
-        <h1>Weather App</h1>
-        {form}
-        <ul>
-          <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <li>Description: {weather.description}</li>
-          <li>Humidity: {weather.humidity}%</li>
-          <li>Wind: {weather.wind}km/h</li>
-          <li>
-            <img src={weather.icon} alt={weather.description} />
-          </li>
-        </ul>
+        <div className="container">
+          <h1>Weather App</h1>
+          {form}
+          <ul>
+            <li>Temperature: {Math.round(weather.temperature)}°C</li>
+            <li>Description: {weather.description}</li>
+            <li>Humidity: {weather.humidity}%</li>
+            <li>Wind: {weather.wind}km/h</li>
+            <li>
+              <img src={weather.icon} alt={weather.description} />
+            </li>
+          </ul>
+          <footer>
+            Coded by Mercy Cherop using{" "}
+            <a href="https://github.com/MercyCherop/react-weather-app" target="blank">
+              Open-source code
+            </a>
+          </footer>
+        </div>
       </div>
     );
   } else {
@@ -57,8 +65,19 @@ export default function WeatherSearch() {
       <div className="App">
         <h1>Weather App</h1>
         {form}
-    </div>
-    )
+        <div className="mt-5">
+        <footer>
+          Coded by Mercy Cherop using{" "}
+          <a
+            href="https://github.com/MercyCherop/react-weather-app"
+            target="blank"
+          >
+            Open-source code
+          </a>
+          </footer>
+          </div>
+      </div>
+    );
     
   }
 }
