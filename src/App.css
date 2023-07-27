@@ -1,7 +1,72 @@
 .App {
+  max-width: 600px;
+  margin: 30px auto;
+   font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
+}
+
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+}
+
+.Weather {
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
+}
+
+.App h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.App ul {
+  margin: 0;
+  padding: 0;
+}
+
+.App li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.App .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+ footer {
+  font-size: 11px;
+  margin: 10px 0;
   text-align: center;
 }
 
-ul{
-  list-style: none;
+.App .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.App img{
+  height: 64px;
+  margin-right: 10px;
+  display: inline-block;
 }
