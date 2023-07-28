@@ -1,7 +1,7 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
-   font-family: arial, sans-serif;
+  font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
@@ -13,13 +13,7 @@
   margin: 10px 0;
 }
 
-.Weather {
-  font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
-  padding: 16px;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
-}
+
 
 .App h1 {
   font-size: 24px;
@@ -43,11 +37,12 @@
 .App .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 54px;
   margin-left: 5px;
+  bottom: 3px;
+  position: relative;
   font-weight: 400;
-  margin-left: 10px;
+  
 }
 
  footer {
@@ -56,13 +51,15 @@
   text-align: center;
 }
 
-.App .unit {
+.unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   line-height: 1;
+  left: 3px;
   top: -34px;
+  
 }
 
 .App img{

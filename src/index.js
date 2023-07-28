@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import App from './Weather';
+import Weather from './Weather';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Weather defaultcity="New York" />
     <footer>
       This page was coded by Mercy Cherop using{" "}
       <a href="https://github.com/MercyCherop/react-weather-app">
