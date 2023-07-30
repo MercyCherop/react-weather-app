@@ -11,9 +11,9 @@ root.render(
   <React.StrictMode>
     <Weather defaultcity="New York" />
     <footer>
-      This page was coded by Mercy Cherop using{" "}
+      This page was coded by Mercy Cherop and is {" "}
       <a href="https://github.com/MercyCherop/react-weather-app">
-        open-source code
+        open-sourced on github
       </a>
     </footer>
   </React.StrictMode>
