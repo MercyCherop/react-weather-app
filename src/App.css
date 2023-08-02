@@ -1,22 +1,17 @@
 .App {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 35px auto;
+  background: url(https://images.unsplash.com/photo-1636728682521-5bf9a2c4f533?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80);
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
-  padding: 16px;
+  padding: 18px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: rgb(246, 246, 246);
 }
-
-.App footer {
-  font-size: 11px;
-  margin: 10px 0;
-}
-
 
 
 .App h1 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
@@ -28,7 +23,7 @@
 }
 
 .App li {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
@@ -36,33 +31,37 @@
 
 .App .temperature {
  font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: rgb(246, 246, 246);
   font-size: 64px;
   line-height: 54px;
   margin-left: 5px;
   font-weight: 400;
-  
-  
 }
 
  footer {
   font-size: 11px;
-  margin: 10px 0;
   text-align: center;
 }
 
 .unit {
-color: rgb(33, 33, 33);
+color: rgb(246, 246, 246);
   font-size: 16px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -30px;
 }
 
 .App canvas{
-  
-  
   margin: 10px auto;
   display: inline-block;
 }
+
+.search-btn{
+  color: #fff;
+  background: #d63384;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+}
+
