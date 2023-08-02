@@ -11,10 +11,9 @@ root.render(
   <React.StrictMode>
     <Weather defaultcity="Gaborone" />
     <footer>
-      This page was coded by Mercy Cherop and is {" "}
-      <a href="https://github.com/MercyCherop/react-weather-app">
-        open-sourced on github
-      </a>
+      This page was coded by Mercy Cherop, is open-sourced on{" "}
+      <a href="https://github.com/MercyCherop/react-weather-app">github</a> and
+      hosted on Netlify.
     </footer>
   </React.StrictMode>
 );
